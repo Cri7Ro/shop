@@ -1,0 +1,54 @@
+.promo_container {
+    padding: 200px 60px 10% 60px;
+    background-image: url(../main_banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    .promo {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 68px;
+        .promoText_container {
+            display: flex;
+            .promoText {
+                width: 428px;
+                text-align: left;
+                color: white;
+                h2 {
+                    font-size: 48px;
+                    line-height: 120%;
+                }
+                h1 {
+                    font-size: 72px;
+                    line-height: 160%;
+                }
+            }
+        }
+        button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        button:first-child {
+            margin-right: 65px;
+        }
+    }
+    .promo_line_container {
+        display: flex;
+        align-self: center;
+        align-items: center;
+        div {
+            height: 3px;
+            width: 56px;
+            background-color: #fff;
+        }
+        div:not(:last-child) {
+            margin-right: 8px;
+        }
+        .active {
+            height: 7px;
+        }
+    }
+  
+}

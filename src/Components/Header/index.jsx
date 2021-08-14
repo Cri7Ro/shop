@@ -1,7 +1,7 @@
 import react from 'react';
 import Menu from './Menu';
 import Icon from './Icon';
-import headerStyles from './Header.module.scss'; 
+import headerStyles from './Header.module.scss';
 
 const Header = () => {
     return (
